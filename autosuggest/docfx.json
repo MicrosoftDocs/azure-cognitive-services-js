@@ -7,8 +7,26 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "docs-ref-autogen",
-        "dest": "/api/testing",
+        "src": "v1/docs-ref-autogen",
+        "dest": "api/testing",
+        "version": "autosuggest-v1",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "v2/docs-ref-autogen",
+        "dest": "api/testing",
+        "version": "autosuggest-v2",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -23,7 +41,7 @@
           "**/*.yml"
         ],
         "src": "breadcrumb",
-        "dest": "/api/testing/breadcrumb",
+        "dest": "api/testing/breadcrumb",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
