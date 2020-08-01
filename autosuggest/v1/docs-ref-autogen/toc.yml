@@ -1,0 +1,101 @@
+- name: '@azure/cognitiveservices-autosuggest'
+  items:
+    - name: Overview
+      uid: '@azure/cognitiveservices-autosuggest'
+    - uid: '@azure/cognitiveservices-autosuggest.Action'
+      name: Action
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.ActionUnion'
+      name: ActionUnion
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.Answer'
+      name: Answer
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.AnswerUnion'
+      name: AnswerUnion
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.AutoSuggestClient'
+      name: AutoSuggestClient
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-autosuggest.AutoSuggestClientAutoSuggestOptionalParams
+      name: AutoSuggestClientAutoSuggestOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.AutoSuggestClientContext'
+      name: AutoSuggestClientContext
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.AutoSuggestClientOptions'
+      name: AutoSuggestClientOptions
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.AutoSuggestResponse'
+      name: AutoSuggestResponse
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.CreativeWork'
+      name: CreativeWork
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.CreativeWorkUnion'
+      name: CreativeWorkUnion
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.ErrorCode'
+      name: ErrorCode
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.ErrorModel'
+      name: ErrorModel
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.ErrorResponse'
+      name: ErrorResponse
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.Identifiable'
+      name: Identifiable
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.IdentifiableUnion'
+      name: IdentifiableUnion
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.QueryContext'
+      name: QueryContext
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.Response'
+      name: Response
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.ResponseBase'
+      name: ResponseBase
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.ResponseBaseUnion'
+      name: ResponseBaseUnion
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.ResponseFormat'
+      name: ResponseFormat
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.ResponseUnion'
+      name: ResponseUnion
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.SafeSearch'
+      name: SafeSearch
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.ScenarioType'
+      name: ScenarioType
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.SearchAction'
+      name: SearchAction
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.SearchKind'
+      name: SearchKind
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.SearchResultsAnswer'
+      name: SearchResultsAnswer
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.SearchResultsAnswerUnion'
+      name: SearchResultsAnswerUnion
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.Suggestions'
+      name: Suggestions
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.SuggestionsSuggestionGroup'
+      name: SuggestionsSuggestionGroup
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.Thing'
+      name: Thing
+      items: []
+    - uid: '@azure/cognitiveservices-autosuggest.ThingUnion'
+      name: ThingUnion
+      items: []
