@@ -8,6 +8,7 @@
           "**/*.yml"
         ],
         "src": "docs-ref-autogen",
+        "dest": "/api/testing",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -22,7 +23,7 @@
           "**/*.yml"
         ],
         "src": "breadcrumb",
-        "dest": "breadcrumb",
+        "dest": "/api/testing/breadcrumb",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -41,6 +42,17 @@
         ]
       }
     ],
+    "groups":
+    {
+      "autosuggest-v2": {
+        "dest": "autosuggest-v2",
+        "moniker_range": "autosuggest-v2"
+      },
+      "autosuggest-v1": {
+        "dest": "autosuggest-v1",
+        "moniker_range": "autosuggest-v1"
+      }
+    },
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
