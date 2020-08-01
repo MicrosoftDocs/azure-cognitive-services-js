@@ -9,7 +9,7 @@
         ],
         "src": "v1/docs-ref-autogen",
         "dest": "api/testing",
-        "version": "autosuggest-v1",
+        "group": "autosuggest-v1",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -26,7 +26,7 @@
         ],
         "src": "v2/docs-ref-autogen",
         "dest": "api/testing",
-        "version": "autosuggest-v2",
+        "group": "autosuggest-v2",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
