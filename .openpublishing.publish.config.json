@@ -6,7 +6,7 @@
       "build_output_subfolder": "autosuggest",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": ["autosuggest-v2","autosuggest-v1"],
+      "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -23,6 +23,25 @@
       "docset_name": "CognitiveServRef",
       "build_source_folder": "CognitiveServRef",
       "build_output_subfolder": "CognitiveServRef",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content",
+        "UniversalReference": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "base_path": "javascript",
+      "site_name": "Docs"
+    },
+    {
+      "docset_name": "computervisionjs",
+      "build_source_folder": "computervisionjs",
+      "build_output_subfolder": "computervisionjs",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
