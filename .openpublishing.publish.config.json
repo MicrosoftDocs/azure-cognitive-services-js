@@ -5,8 +5,8 @@
       "build_source_folder": "autosuggest",
       "build_output_subfolder": "autosuggest",
       "locale": "en-us",
-      "monikers": ["autosuggest-v2","autosuggest-v1"],
-      "moniker_ranges": [],
+      "monikers": [],
+      "moniker_ranges": ["autosuggest-v2","autosuggest-v1"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
