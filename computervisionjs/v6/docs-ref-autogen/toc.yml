@@ -1,0 +1,310 @@
+- name: '@azure/cognitiveservices-computervision'
+  items:
+    - name: Overview
+      uid: '@azure/cognitiveservices-computervision'
+    - uid: '@azure/cognitiveservices-computervision.AdultInfo'
+      name: AdultInfo
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.AnalyzeImageByDomainInStreamResponse
+      name: AnalyzeImageByDomainInStreamResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.AnalyzeImageByDomainResponse'
+      name: AnalyzeImageByDomainResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.AnalyzeImageInStreamResponse'
+      name: AnalyzeImageInStreamResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.AnalyzeImageResponse'
+      name: AnalyzeImageResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.AreaOfInterestResult'
+      name: AreaOfInterestResult
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.BatchReadFileHeaders'
+      name: BatchReadFileHeaders
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.BatchReadFileInStreamHeaders'
+      name: BatchReadFileInStreamHeaders
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.BatchReadFileInStreamResponse'
+      name: BatchReadFileInStreamResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.BatchReadFileResponse'
+      name: BatchReadFileResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.BoundingRect'
+      name: BoundingRect
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.Category'
+      name: Category
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.CategoryDetail'
+      name: CategoryDetail
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.CelebritiesModel'
+      name: CelebritiesModel
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.CelebrityResults'
+      name: CelebrityResults
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ColorInfo'
+      name: ColorInfo
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ComputerVisionClient'
+      name: ComputerVisionClient
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.ComputerVisionClientAnalyzeImageByDomainInStreamOptionalParams
+      name: ComputerVisionClientAnalyzeImageByDomainInStreamOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.ComputerVisionClientAnalyzeImageByDomainOptionalParams
+      name: ComputerVisionClientAnalyzeImageByDomainOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.ComputerVisionClientAnalyzeImageInStreamOptionalParams
+      name: ComputerVisionClientAnalyzeImageInStreamOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.ComputerVisionClientAnalyzeImageOptionalParams
+      name: ComputerVisionClientAnalyzeImageOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ComputerVisionClientContext'
+      name: ComputerVisionClientContext
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.ComputerVisionClientDescribeImageInStreamOptionalParams
+      name: ComputerVisionClientDescribeImageInStreamOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.ComputerVisionClientDescribeImageOptionalParams
+      name: ComputerVisionClientDescribeImageOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.ComputerVisionClientGenerateThumbnailInStreamOptionalParams
+      name: ComputerVisionClientGenerateThumbnailInStreamOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.ComputerVisionClientGenerateThumbnailOptionalParams
+      name: ComputerVisionClientGenerateThumbnailOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.ComputerVisionClientRecognizePrintedTextInStreamOptionalParams
+      name: ComputerVisionClientRecognizePrintedTextInStreamOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.ComputerVisionClientRecognizePrintedTextOptionalParams
+      name: ComputerVisionClientRecognizePrintedTextOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.ComputerVisionClientTagImageInStreamOptionalParams
+      name: ComputerVisionClientTagImageInStreamOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.ComputerVisionClientTagImageOptionalParams
+      name: ComputerVisionClientTagImageOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ComputerVisionError'
+      name: ComputerVisionError
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.DescribeImageInStreamResponse'
+      name: DescribeImageInStreamResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.DescribeImageResponse'
+      name: DescribeImageResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.DescriptionExclude'
+      name: DescriptionExclude
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.Details'
+      name: Details
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.DetectedBrand'
+      name: DetectedBrand
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.DetectedObject'
+      name: DetectedObject
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.DetectObjectsInStreamResponse'
+      name: DetectObjectsInStreamResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.DetectObjectsResponse'
+      name: DetectObjectsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.DetectResult'
+      name: DetectResult
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.DomainModelResults'
+      name: DomainModelResults
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.FaceDescription'
+      name: FaceDescription
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.FaceRectangle'
+      name: FaceRectangle
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.Gender'
+      name: Gender
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.GenerateThumbnailInStreamResponse
+      name: GenerateThumbnailInStreamResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.GenerateThumbnailResponse'
+      name: GenerateThumbnailResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.GetAreaOfInterestInStreamResponse
+      name: GetAreaOfInterestInStreamResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.GetAreaOfInterestResponse'
+      name: GetAreaOfInterestResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.GetReadOperationResultResponse'
+      name: GetReadOperationResultResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.GetTextOperationResultResponse'
+      name: GetTextOperationResultResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ImageAnalysis'
+      name: ImageAnalysis
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ImageCaption'
+      name: ImageCaption
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ImageDescription'
+      name: ImageDescription
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ImageDescriptionDetails'
+      name: ImageDescriptionDetails
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ImageMetadata'
+      name: ImageMetadata
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ImageTag'
+      name: ImageTag
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ImageType'
+      name: ImageType
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ImageUrl'
+      name: ImageUrl
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.LandmarkResults'
+      name: LandmarkResults
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.LandmarksModel'
+      name: LandmarksModel
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.Language'
+      name: Language
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.Language1'
+      name: Language1
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.Language2'
+      name: Language2
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.Language3'
+      name: Language3
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.Language4'
+      name: Language4
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.Language5'
+      name: Language5
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.Language6'
+      name: Language6
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.Language7'
+      name: Language7
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.Line'
+      name: Line
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ListModelsResponse'
+      name: ListModelsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ListModelsResult'
+      name: ListModelsResult
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ModelDescription'
+      name: ModelDescription
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ObjectHierarchy'
+      name: ObjectHierarchy
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.OcrLanguages'
+      name: OcrLanguages
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.OcrLine'
+      name: OcrLine
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.OcrRegion'
+      name: OcrRegion
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.OcrResult'
+      name: OcrResult
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.OcrWord'
+      name: OcrWord
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.ReadOperationResult'
+      name: ReadOperationResult
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.RecognizePrintedTextInStreamResponse
+      name: RecognizePrintedTextInStreamResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.RecognizePrintedTextResponse'
+      name: RecognizePrintedTextResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.RecognizeTextHeaders'
+      name: RecognizeTextHeaders
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.RecognizeTextInStreamHeaders'
+      name: RecognizeTextInStreamHeaders
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.RecognizeTextInStreamResponse'
+      name: RecognizeTextInStreamResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.RecognizeTextResponse'
+      name: RecognizeTextResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.TagImageInStreamResponse'
+      name: TagImageInStreamResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.TagImageResponse'
+      name: TagImageResponse
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.TagResult'
+      name: TagResult
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.TextOperationResult'
+      name: TextOperationResult
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.TextOperationStatusCodes'
+      name: TextOperationStatusCodes
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.TextRecognitionMode'
+      name: TextRecognitionMode
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.TextRecognitionResult'
+      name: TextRecognitionResult
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.TextRecognitionResultConfidenceClass
+      name: TextRecognitionResultConfidenceClass
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-computervision.TextRecognitionResultDimensionUnit
+      name: TextRecognitionResultDimensionUnit
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.VisualFeatureTypes'
+      name: VisualFeatureTypes
+      items: []
+    - uid: '@azure/cognitiveservices-computervision.Word'
+      name: Word
+      items: []
