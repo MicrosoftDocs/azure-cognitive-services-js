@@ -63,7 +63,7 @@
       "build_output_subfolder": "luis-runtime-js",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": ["luis-runtime-js-v5","luis-runtime-js-v4","luis-runtime-js-v3"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",

@@ -8,7 +8,42 @@
           "**/*.yml"
         ],
         "dest": "api/testing",
-        "src": "docs-ref-autogen",
+        "src": "v5/docs-ref-autogen",
+        "group": "luis-runtime-js-v5",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "dest": "api/testing",
+        "src": "v4/docs-ref-autogen",
+        "group": "luis-runtime-js-v4",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "dest": "api/testing",
+        "src": "v3/docs-ref-autogen",
+        "group": "luis-runtime-js-v3",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -46,6 +81,21 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "~/breadcrumb/toc.yml"
+    },
+    "groups":
+    {
+      "luis-runtime-js-v5": {
+        "dest": "luis-runtime-js-v5",
+        "moniker_range": "luis-runtime-js-v5"
+      },
+      "luis-runtime-js-v4": {
+        "dest": "luis-runtime-js-v4",
+        "moniker_range": "luis-runtime-js-v4"
+      },
+      "luis-runtime-js-v3": {
+        "dest": "luis-runtime-js-v3",
+        "moniker_range": "luis-runtime-js-v3"
+      }
     },
     "fileMetadata": {},
     "template": [],

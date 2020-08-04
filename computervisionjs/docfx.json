@@ -9,6 +9,7 @@
         ],
         "src": "v7/docs-ref-autogen",
         "dest": "api/testing",
+        "group": "computervision-v7",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -25,6 +26,7 @@
         ],
         "src": "v6/docs-ref-autogen",
         "dest": "api/testing",
+        "group": "computervision-v6",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -41,6 +43,7 @@
         ],
         "src": "v5/docs-ref-autogen",
         "dest": "api/testing",
+        "group": "computervision-v5",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -57,6 +60,7 @@
         ],
         "src": "v4/docs-ref-autogen",
         "dest": "api/testing",
+        "group": "computervision-v4",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
