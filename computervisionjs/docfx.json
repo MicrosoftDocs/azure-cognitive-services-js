@@ -7,7 +7,52 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "docs-ref-autogen",
+        "src": "v7/docs-ref-autogen",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "v6/docs-ref-autogen",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "v5/docs-ref-autogen",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "v4/docs-ref-autogen",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -45,6 +90,25 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "~/breadcrumb/toc.yml"
+    },
+    "groups":
+    {
+      "computervision-v7": {
+        "dest": "computervision-v7",
+        "moniker_range": "computervision-v7"
+      },
+      "computervision-v6": {
+        "dest": "computervision-v6",
+        "moniker_range": "computervision-v6"
+      },
+      "computervision-v5": {
+        "dest": "computervision-v5",
+        "moniker_range": "computervision-v5"
+      },
+      "computervision-v4": {
+        "dest": "computervision-v4",
+        "moniker_range": "computervision-v4"
+      }
     },
     "fileMetadata": {},
     "template": [],

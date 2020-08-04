@@ -25,7 +25,7 @@
       "build_output_subfolder": "CognitiveServRef",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": ["autosuggest-v2","autosuggest-v1"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -44,7 +44,7 @@
       "build_output_subfolder": "computervisionjs",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": ["computervision-v7","computervision-v6","computervision-v5","computervision-v4"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
