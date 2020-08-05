@@ -6,8 +6,7 @@
       "build_output_subfolder": "autosuggest",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": ["autosuggest-v2","autosuggest-v1"],
-      "open_to_public_contributors": true,
+      "moniker_ranges": ["autosuggest-v1","autosuggest-v2"],
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
