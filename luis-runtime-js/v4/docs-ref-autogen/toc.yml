@@ -1,0 +1,62 @@
+- name: '@azure/cognitiveservices-luis-runtime'
+  items:
+    - name: Overview
+      uid: '@azure/cognitiveservices-luis-runtime'
+    - uid: '@azure/cognitiveservices-luis-runtime.DynamicList'
+      name: DynamicList
+      items: []
+    - uid: '@azure/cognitiveservices-luis-runtime.ErrorBody'
+      name: ErrorBody
+      items: []
+    - uid: '@azure/cognitiveservices-luis-runtime.ErrorModel'
+      name: ErrorModel
+      items: []
+    - uid: '@azure/cognitiveservices-luis-runtime.ExternalEntity'
+      name: ExternalEntity
+      items: []
+    - uid: '@azure/cognitiveservices-luis-runtime.Intent'
+      name: Intent
+      items: []
+    - uid: '@azure/cognitiveservices-luis-runtime.LUISRuntimeClient'
+      name: LUISRuntimeClient
+      items: []
+    - uid: '@azure/cognitiveservices-luis-runtime.LUISRuntimeClientContext'
+      name: LUISRuntimeClientContext
+      items: []
+    - uid: '@azure/cognitiveservices-luis-runtime.Prediction'
+      name: Prediction
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-runtime.PredictionGetSlotPredictionOptionalParams
+      name: PredictionGetSlotPredictionOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-runtime.PredictionGetSlotPredictionResponse
+      name: PredictionGetSlotPredictionResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-runtime.PredictionGetVersionPredictionOptionalParams
+      name: PredictionGetVersionPredictionOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-runtime.PredictionGetVersionPredictionResponse
+      name: PredictionGetVersionPredictionResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-runtime.PredictionOperations'
+      name: PredictionOperations
+      items: []
+    - uid: '@azure/cognitiveservices-luis-runtime.PredictionRequest'
+      name: PredictionRequest
+      items: []
+    - uid: '@azure/cognitiveservices-luis-runtime.PredictionRequestOptions'
+      name: PredictionRequestOptions
+      items: []
+    - uid: '@azure/cognitiveservices-luis-runtime.PredictionResponse'
+      name: PredictionResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-runtime.RequestList'
+      name: RequestList
+      items: []
+    - uid: '@azure/cognitiveservices-luis-runtime.Sentiment'
+      name: Sentiment
+      items: []
