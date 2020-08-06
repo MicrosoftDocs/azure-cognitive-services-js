@@ -14,6 +14,7 @@
           "**/obj/**",
           "**/includes/**",
           "README.md",
+          "toc.yml",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
@@ -31,6 +32,7 @@
           "**/obj/**",
           "**/includes/**",
           "README.md",
+          "toc.yml",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
@@ -48,6 +50,7 @@
           "**/obj/**",
           "**/includes/**",
           "README.md",
+          "toc.yml",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
@@ -64,10 +67,51 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "toc.yml",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v4/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-computervision",
+        "group": "computervision-v4",
+        "exclude": [
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v5/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-computervision",
+        "group":  "computervision-v5",
+        "exclude": [
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v6/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-computervision",
+        "group":  "computervision-v6",
+        "exclude": [
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v7/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-computervision",
+        "group":  "computervision-v7",
+        "exclude": [
         ]
       },
       {
