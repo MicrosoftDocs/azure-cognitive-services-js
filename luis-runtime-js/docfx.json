@@ -15,6 +15,7 @@
           "**/includes/**",
           "README.md",
           "LICENSE",
+          "toc.yml",
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ]
@@ -32,6 +33,7 @@
           "**/includes/**",
           "README.md",
           "LICENSE",
+          "toc.yml",
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ]
@@ -48,9 +50,40 @@
           "**/obj/**",
           "**/includes/**",
           "README.md",
+          "toc.yml",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v5/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-luis-runtime",
+        "group": "luis-runtime-js-v5",
+        "exclude": [
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v4/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-luis-runtime",
+        "group": "luis-runtime-js-v4",
+        "exclude": [
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v3/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-luis-runtime",
+        "group": "luis-runtime-js-v3",
+        "exclude": [
         ]
       },
       {
