@@ -1,0 +1,1130 @@
+- name: '@azure/cognitiveservices-luis-authoring'
+  items:
+    - name: Overview
+      uid: '@azure/cognitiveservices-luis-authoring'
+    - uid: '@azure/cognitiveservices-luis-authoring.ApplicationCreateObject'
+      name: ApplicationCreateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ApplicationInfoResponse'
+      name: ApplicationInfoResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ApplicationPublishObject'
+      name: ApplicationPublishObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ApplicationSettings'
+      name: ApplicationSettings
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ApplicationSettingUpdateObject'
+      name: ApplicationSettingUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ApplicationUpdateObject'
+      name: ApplicationUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.Apps'
+      name: Apps
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.AppsAddCustomPrebuiltDomainResponse
+      name: AppsAddCustomPrebuiltDomainResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsAddResponse'
+      name: AppsAddResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsDeleteMethodOptionalParams'
+      name: AppsDeleteMethodOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsDeleteMethodResponse'
+      name: AppsDeleteMethodResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsDownloadQueryLogsResponse'
+      name: AppsDownloadQueryLogsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsGetPublishSettingsResponse'
+      name: AppsGetPublishSettingsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsGetResponse'
+      name: AppsGetResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsGetSettingsResponse'
+      name: AppsGetSettingsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsImportLuFormatOptionalParams'
+      name: AppsImportLuFormatOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsImportLuFormatResponse'
+      name: AppsImportLuFormatResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsImportMethodOptionalParams'
+      name: AppsImportMethodOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsImportMethodResponse'
+      name: AppsImportMethodResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsImportV2AppOptionalParams'
+      name: AppsImportV2AppOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsImportV2AppResponse'
+      name: AppsImportV2AppResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.AppsListAvailableCustomPrebuiltDomainsForCultureResponse
+      name: AppsListAvailableCustomPrebuiltDomainsForCultureResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.AppsListAvailableCustomPrebuiltDomainsResponse
+      name: AppsListAvailableCustomPrebuiltDomainsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsListCortanaEndpointsResponse'
+      name: AppsListCortanaEndpointsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsListDomainsResponse'
+      name: AppsListDomainsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsListEndpointsResponse'
+      name: AppsListEndpointsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsListOptionalParams'
+      name: AppsListOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsListResponse'
+      name: AppsListResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.AppsListSupportedCulturesResponse
+      name: AppsListSupportedCulturesResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsListUsageScenariosResponse'
+      name: AppsListUsageScenariosResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.AppsPackagePublishedApplicationAsGzipResponse
+      name: AppsPackagePublishedApplicationAsGzipResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.AppsPackageTrainedApplicationAsGzipResponse
+      name: AppsPackageTrainedApplicationAsGzipResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsPublishResponse'
+      name: AppsPublishResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.AppsUpdatePublishSettingsResponse
+      name: AppsUpdatePublishSettingsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsUpdateResponse'
+      name: AppsUpdateResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppsUpdateSettingsResponse'
+      name: AppsUpdateSettingsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AppVersionSettingObject'
+      name: AppVersionSettingObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AvailableCulture'
+      name: AvailableCulture
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AvailablePrebuiltEntityModel'
+      name: AvailablePrebuiltEntityModel
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AzureAccountInfoObject'
+      name: AzureAccountInfoObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AzureAccounts'
+      name: AzureAccounts
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.AzureAccountsAssignToAppOptionalParams
+      name: AzureAccountsAssignToAppOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AzureAccountsAssignToAppResponse'
+      name: AzureAccountsAssignToAppResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.AzureAccountsGetAssignedOptionalParams
+      name: AzureAccountsGetAssignedOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.AzureAccountsGetAssignedResponse'
+      name: AzureAccountsGetAssignedResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.AzureAccountsListUserLUISAccountsOptionalParams
+      name: AzureAccountsListUserLUISAccountsOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.AzureAccountsListUserLUISAccountsResponse
+      name: AzureAccountsListUserLUISAccountsResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.AzureAccountsRemoveFromAppOptionalParams
+      name: AzureAccountsRemoveFromAppOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.AzureAccountsRemoveFromAppResponse
+      name: AzureAccountsRemoveFromAppResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.BatchLabelExample'
+      name: BatchLabelExample
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ChildEntity'
+      name: ChildEntity
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ChildEntityModelCreateObject'
+      name: ChildEntityModelCreateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ClosedList'
+      name: ClosedList
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ClosedListEntityExtractor'
+      name: ClosedListEntityExtractor
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ClosedListModelCreateObject'
+      name: ClosedListModelCreateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ClosedListModelPatchObject'
+      name: ClosedListModelPatchObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ClosedListModelUpdateObject'
+      name: ClosedListModelUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.CollaboratorsArray'
+      name: CollaboratorsArray
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.CompositeChildModelCreateObject'
+      name: CompositeChildModelCreateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.CompositeEntityExtractor'
+      name: CompositeEntityExtractor
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.CompositeEntityModel'
+      name: CompositeEntityModel
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.CustomPrebuiltModel'
+      name: CustomPrebuiltModel
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.EndpointInfo'
+      name: EndpointInfo
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.EnqueueTrainingResponse'
+      name: EnqueueTrainingResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.EntitiesSuggestionExample'
+      name: EntitiesSuggestionExample
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.EntityExtractor'
+      name: EntityExtractor
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.EntityLabel'
+      name: EntityLabel
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.EntityLabelObject'
+      name: EntityLabelObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.EntityModelCreateObject'
+      name: EntityModelCreateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.EntityModelInfo'
+      name: EntityModelInfo
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.EntityModelUpdateObject'
+      name: EntityModelUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.EntityPrediction'
+      name: EntityPrediction
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.EntityRole'
+      name: EntityRole
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.EntityRoleCreateObject'
+      name: EntityRoleCreateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.EntityRoleUpdateObject'
+      name: EntityRoleUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ErrorResponse'
+      name: ErrorResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ExampleLabelObject'
+      name: ExampleLabelObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.Examples'
+      name: Examples
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ExamplesAddOptionalParams'
+      name: ExamplesAddOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ExamplesAddResponse'
+      name: ExamplesAddResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ExamplesBatchOptionalParams'
+      name: ExamplesBatchOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ExamplesBatchResponse'
+      name: ExamplesBatchResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ExamplesDeleteMethodResponse'
+      name: ExamplesDeleteMethodResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ExamplesListOptionalParams'
+      name: ExamplesListOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ExamplesListResponse'
+      name: ExamplesListResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ExplicitListItem'
+      name: ExplicitListItem
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ExplicitListItemCreateObject'
+      name: ExplicitListItemCreateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ExplicitListItemUpdateObject'
+      name: ExplicitListItemUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.FeatureInfoObject'
+      name: FeatureInfoObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.Features'
+      name: Features
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.FeaturesAddEntityFeatureResponse'
+      name: FeaturesAddEntityFeatureResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.FeaturesAddIntentFeatureResponse'
+      name: FeaturesAddIntentFeatureResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.FeaturesAddPhraseListResponse'
+      name: FeaturesAddPhraseListResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.FeaturesDeletePhraseListResponse'
+      name: FeaturesDeletePhraseListResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.FeaturesGetPhraseListResponse'
+      name: FeaturesGetPhraseListResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.FeaturesListOptionalParams'
+      name: FeaturesListOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.FeaturesListPhraseListsOptionalParams
+      name: FeaturesListPhraseListsOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.FeaturesListPhraseListsResponse'
+      name: FeaturesListPhraseListsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.FeaturesListResponse'
+      name: FeaturesListResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.FeaturesResponseObject'
+      name: FeaturesResponseObject
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.FeaturesUpdatePhraseListOptionalParams
+      name: FeaturesUpdatePhraseListOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.FeaturesUpdatePhraseListResponse'
+      name: FeaturesUpdatePhraseListResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.HierarchicalChildEntity'
+      name: HierarchicalChildEntity
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.HierarchicalChildModelUpdateObject
+      name: HierarchicalChildModelUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.HierarchicalEntityExtractor'
+      name: HierarchicalEntityExtractor
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.HierarchicalModel'
+      name: HierarchicalModel
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.HierarchicalModelV2'
+      name: HierarchicalModelV2
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.IntentClassifier'
+      name: IntentClassifier
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.IntentPrediction'
+      name: IntentPrediction
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.IntentsSuggestionExample'
+      name: IntentsSuggestionExample
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.JsonChild'
+      name: JsonChild
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.JSONEntity'
+      name: JSONEntity
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.JSONModelFeature'
+      name: JSONModelFeature
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.JsonModelFeatureInformation'
+      name: JsonModelFeatureInformation
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.JSONRegexFeature'
+      name: JSONRegexFeature
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.JSONUtterance'
+      name: JSONUtterance
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.LabeledUtterance'
+      name: LabeledUtterance
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.LabelExampleResponse'
+      name: LabelExampleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.LabelTextObject'
+      name: LabelTextObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.LuisApp'
+      name: LuisApp
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.LuisAppV2'
+      name: LuisAppV2
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.LUISAuthoringClient'
+      name: LUISAuthoringClient
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.LUISAuthoringClientContext'
+      name: LUISAuthoringClientContext
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.Model'
+      name: Model
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelAddClosedListResponse'
+      name: ModelAddClosedListResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelAddCompositeEntityChildResponse
+      name: ModelAddCompositeEntityChildResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelAddCustomPrebuiltDomainResponse
+      name: ModelAddCustomPrebuiltDomainResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelAddCustomPrebuiltEntityResponse
+      name: ModelAddCustomPrebuiltEntityResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelAddCustomPrebuiltIntentResponse
+      name: ModelAddCustomPrebuiltIntentResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelAddEntityChildResponse'
+      name: ModelAddEntityChildResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelAddEntityResponse'
+      name: ModelAddEntityResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelAddExplicitListItemResponse'
+      name: ModelAddExplicitListItemResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelAddIntentResponse'
+      name: ModelAddIntentResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelAddPrebuiltResponse'
+      name: ModelAddPrebuiltResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelAddSubListResponse'
+      name: ModelAddSubListResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelCreateClosedListEntityRoleResponse
+      name: ModelCreateClosedListEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelCreateCompositeEntityRoleResponse
+      name: ModelCreateCompositeEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelCreateCustomPrebuiltEntityRoleResponse
+      name: ModelCreateCustomPrebuiltEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelCreateEntityRoleResponse'
+      name: ModelCreateEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelCreateHierarchicalEntityRoleResponse
+      name: ModelCreateHierarchicalEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelCreateObject'
+      name: ModelCreateObject
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelCreatePatternAnyEntityModelResponse
+      name: ModelCreatePatternAnyEntityModelResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelCreatePatternAnyEntityRoleResponse
+      name: ModelCreatePatternAnyEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelCreatePrebuiltEntityRoleResponse
+      name: ModelCreatePrebuiltEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelCreateRegexEntityModelResponse
+      name: ModelCreateRegexEntityModelResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelCreateRegexEntityRoleResponse
+      name: ModelCreateRegexEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeleteClosedListEntityRoleResponse
+      name: ModelDeleteClosedListEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelDeleteClosedListResponse'
+      name: ModelDeleteClosedListResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeleteCompositeEntityChildResponse
+      name: ModelDeleteCompositeEntityChildResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeleteCompositeEntityResponse
+      name: ModelDeleteCompositeEntityResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeleteCompositeEntityRoleResponse
+      name: ModelDeleteCompositeEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeleteCustomEntityRoleResponse
+      name: ModelDeleteCustomEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeleteCustomPrebuiltDomainResponse
+      name: ModelDeleteCustomPrebuiltDomainResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelDeleteEntityFeatureResponse'
+      name: ModelDeleteEntityFeatureResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelDeleteEntityResponse'
+      name: ModelDeleteEntityResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelDeleteEntityRoleResponse'
+      name: ModelDeleteEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeleteExplicitListItemResponse
+      name: ModelDeleteExplicitListItemResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeleteHierarchicalEntityChildResponse
+      name: ModelDeleteHierarchicalEntityChildResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeleteHierarchicalEntityResponse
+      name: ModelDeleteHierarchicalEntityResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeleteHierarchicalEntityRoleResponse
+      name: ModelDeleteHierarchicalEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelDeleteIntentFeatureResponse'
+      name: ModelDeleteIntentFeatureResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelDeleteIntentOptionalParams'
+      name: ModelDeleteIntentOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelDeleteIntentResponse'
+      name: ModelDeleteIntentResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeletePatternAnyEntityModelResponse
+      name: ModelDeletePatternAnyEntityModelResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeletePatternAnyEntityRoleResponse
+      name: ModelDeletePatternAnyEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeletePrebuiltEntityRoleResponse
+      name: ModelDeletePrebuiltEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelDeletePrebuiltResponse'
+      name: ModelDeletePrebuiltResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeleteRegexEntityModelResponse
+      name: ModelDeleteRegexEntityModelResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelDeleteRegexEntityRoleResponse
+      name: ModelDeleteRegexEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelDeleteSubListResponse'
+      name: ModelDeleteSubListResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelExamplesMethodOptionalParams
+      name: ModelExamplesMethodOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelExamplesMethodResponse'
+      name: ModelExamplesMethodResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelFeatureInformation'
+      name: ModelFeatureInformation
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelGetClosedListEntityRoleResponse
+      name: ModelGetClosedListEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelGetClosedListResponse'
+      name: ModelGetClosedListResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelGetCompositeEntityResponse'
+      name: ModelGetCompositeEntityResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelGetCompositeEntityRoleResponse
+      name: ModelGetCompositeEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelGetCustomEntityRoleResponse'
+      name: ModelGetCustomEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelGetEntityFeaturesResponse'
+      name: ModelGetEntityFeaturesResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelGetEntityResponse'
+      name: ModelGetEntityResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelGetEntityRoleResponse'
+      name: ModelGetEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelGetExplicitListItemResponse'
+      name: ModelGetExplicitListItemResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelGetExplicitListResponse'
+      name: ModelGetExplicitListResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelGetHierarchicalEntityChildResponse
+      name: ModelGetHierarchicalEntityChildResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelGetHierarchicalEntityResponse
+      name: ModelGetHierarchicalEntityResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelGetHierarchicalEntityRoleResponse
+      name: ModelGetHierarchicalEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelGetIntentFeaturesResponse'
+      name: ModelGetIntentFeaturesResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelGetIntentResponse'
+      name: ModelGetIntentResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelGetPatternAnyEntityInfoResponse
+      name: ModelGetPatternAnyEntityInfoResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelGetPatternAnyEntityRoleResponse
+      name: ModelGetPatternAnyEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelGetPrebuiltEntityRoleResponse
+      name: ModelGetPrebuiltEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelGetPrebuiltResponse'
+      name: ModelGetPrebuiltResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelGetRegexEntityEntityInfoResponse
+      name: ModelGetRegexEntityEntityInfoResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelGetRegexEntityRoleResponse'
+      name: ModelGetRegexEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelInfo'
+      name: ModelInfo
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelInfoResponse'
+      name: ModelInfoResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListClosedListEntityRolesResponse
+      name: ModelListClosedListEntityRolesResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListClosedListsOptionalParams
+      name: ModelListClosedListsOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelListClosedListsResponse'
+      name: ModelListClosedListsResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListCompositeEntitiesOptionalParams
+      name: ModelListCompositeEntitiesOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListCompositeEntitiesResponse
+      name: ModelListCompositeEntitiesResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListCompositeEntityRolesResponse
+      name: ModelListCompositeEntityRolesResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListCustomPrebuiltEntitiesResponse
+      name: ModelListCustomPrebuiltEntitiesResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListCustomPrebuiltEntityRolesResponse
+      name: ModelListCustomPrebuiltEntityRolesResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListCustomPrebuiltIntentsResponse
+      name: ModelListCustomPrebuiltIntentsResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListCustomPrebuiltModelsResponse
+      name: ModelListCustomPrebuiltModelsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelListEntitiesOptionalParams'
+      name: ModelListEntitiesOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelListEntitiesResponse'
+      name: ModelListEntitiesResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelListEntityRolesResponse'
+      name: ModelListEntityRolesResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListEntitySuggestionsOptionalParams
+      name: ModelListEntitySuggestionsOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListEntitySuggestionsResponse
+      name: ModelListEntitySuggestionsResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListHierarchicalEntitiesOptionalParams
+      name: ModelListHierarchicalEntitiesOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListHierarchicalEntitiesResponse
+      name: ModelListHierarchicalEntitiesResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListHierarchicalEntityRolesResponse
+      name: ModelListHierarchicalEntityRolesResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelListIntentsOptionalParams'
+      name: ModelListIntentsOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelListIntentsResponse'
+      name: ModelListIntentsResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListIntentSuggestionsOptionalParams
+      name: ModelListIntentSuggestionsOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListIntentSuggestionsResponse
+      name: ModelListIntentSuggestionsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelListModelsOptionalParams'
+      name: ModelListModelsOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelListModelsResponse'
+      name: ModelListModelsResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListPatternAnyEntityInfosOptionalParams
+      name: ModelListPatternAnyEntityInfosOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListPatternAnyEntityInfosResponse
+      name: ModelListPatternAnyEntityInfosResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListPatternAnyEntityRolesResponse
+      name: ModelListPatternAnyEntityRolesResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListPrebuiltEntitiesResponse
+      name: ModelListPrebuiltEntitiesResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListPrebuiltEntityRolesResponse
+      name: ModelListPrebuiltEntityRolesResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelListPrebuiltsOptionalParams'
+      name: ModelListPrebuiltsOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelListPrebuiltsResponse'
+      name: ModelListPrebuiltsResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListRegexEntityInfosOptionalParams
+      name: ModelListRegexEntityInfosOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListRegexEntityInfosResponse
+      name: ModelListRegexEntityInfosResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelListRegexEntityRolesResponse
+      name: ModelListRegexEntityRolesResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelPatchClosedListResponse'
+      name: ModelPatchClosedListResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelReplaceEntityFeaturesResponse
+      name: ModelReplaceEntityFeaturesResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelReplaceIntentFeaturesResponse
+      name: ModelReplaceIntentFeaturesResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelTrainingDetails'
+      name: ModelTrainingDetails
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelTrainingInfo'
+      name: ModelTrainingInfo
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelUpdateClosedListEntityRoleResponse
+      name: ModelUpdateClosedListEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelUpdateClosedListResponse'
+      name: ModelUpdateClosedListResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelUpdateCompositeEntityResponse
+      name: ModelUpdateCompositeEntityResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelUpdateCompositeEntityRoleResponse
+      name: ModelUpdateCompositeEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelUpdateCustomPrebuiltEntityRoleResponse
+      name: ModelUpdateCustomPrebuiltEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelUpdateEntityChildResponse'
+      name: ModelUpdateEntityChildResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelUpdateEntityRoleResponse'
+      name: ModelUpdateEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelUpdateExplicitListItemResponse
+      name: ModelUpdateExplicitListItemResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelUpdateHierarchicalEntityChildResponse
+      name: ModelUpdateHierarchicalEntityChildResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelUpdateHierarchicalEntityResponse
+      name: ModelUpdateHierarchicalEntityResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelUpdateHierarchicalEntityRoleResponse
+      name: ModelUpdateHierarchicalEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelUpdateIntentResponse'
+      name: ModelUpdateIntentResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelUpdateObject'
+      name: ModelUpdateObject
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelUpdatePatternAnyEntityModelResponse
+      name: ModelUpdatePatternAnyEntityModelResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelUpdatePatternAnyEntityRoleResponse
+      name: ModelUpdatePatternAnyEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelUpdatePrebuiltEntityRoleResponse
+      name: ModelUpdatePrebuiltEntityRoleResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelUpdateRegexEntityModelResponse
+      name: ModelUpdateRegexEntityModelResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.ModelUpdateRegexEntityRoleResponse
+      name: ModelUpdateRegexEntityRoleResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ModelUpdateSubListResponse'
+      name: ModelUpdateSubListResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.NDepthEntityExtractor'
+      name: NDepthEntityExtractor
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.OperationError'
+      name: OperationError
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.OperationStatus'
+      name: OperationStatus
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.OperationStatusType'
+      name: OperationStatusType
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.Pattern'
+      name: Pattern
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternAddPatternResponse'
+      name: PatternAddPatternResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternAny'
+      name: PatternAny
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternAnyEntityExtractor'
+      name: PatternAnyEntityExtractor
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternAnyModelCreateObject'
+      name: PatternAnyModelCreateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternAnyModelUpdateObject'
+      name: PatternAnyModelUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternBatchAddPatternsResponse'
+      name: PatternBatchAddPatternsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternDeletePatternResponse'
+      name: PatternDeletePatternResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternDeletePatternsResponse'
+      name: PatternDeletePatternsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternFeatureInfo'
+      name: PatternFeatureInfo
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.PatternListIntentPatternsOptionalParams
+      name: PatternListIntentPatternsOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.PatternListIntentPatternsResponse
+      name: PatternListIntentPatternsResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.PatternListPatternsOptionalParams
+      name: PatternListPatternsOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternListPatternsResponse'
+      name: PatternListPatternsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternRule'
+      name: PatternRule
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternRuleCreateObject'
+      name: PatternRuleCreateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternRuleInfo'
+      name: PatternRuleInfo
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternRuleUpdateObject'
+      name: PatternRuleUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternUpdatePatternResponse'
+      name: PatternUpdatePatternResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PatternUpdatePatternsResponse'
+      name: PatternUpdatePatternsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PersonalAssistantsResponse'
+      name: PersonalAssistantsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PhraselistCreateObject'
+      name: PhraselistCreateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PhraseListFeatureInfo'
+      name: PhraseListFeatureInfo
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PhraselistUpdateObject'
+      name: PhraselistUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PrebuiltDomain'
+      name: PrebuiltDomain
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PrebuiltDomainCreateBaseObject'
+      name: PrebuiltDomainCreateBaseObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PrebuiltDomainCreateObject'
+      name: PrebuiltDomainCreateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PrebuiltDomainItem'
+      name: PrebuiltDomainItem
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PrebuiltDomainModelCreateObject'
+      name: PrebuiltDomainModelCreateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PrebuiltDomainObject'
+      name: PrebuiltDomainObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PrebuiltEntity'
+      name: PrebuiltEntity
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PrebuiltEntityExtractor'
+      name: PrebuiltEntityExtractor
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ProductionOrStagingEndpointInfo'
+      name: ProductionOrStagingEndpointInfo
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PublishSettings'
+      name: PublishSettings
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.PublishSettingUpdateObject'
+      name: PublishSettingUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ReadableType'
+      name: ReadableType
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ReadableType1'
+      name: ReadableType1
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ReadableType10'
+      name: ReadableType10
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ReadableType11'
+      name: ReadableType11
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ReadableType2'
+      name: ReadableType2
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ReadableType3'
+      name: ReadableType3
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ReadableType4'
+      name: ReadableType4
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ReadableType5'
+      name: ReadableType5
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ReadableType6'
+      name: ReadableType6
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ReadableType7'
+      name: ReadableType7
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ReadableType8'
+      name: ReadableType8
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.ReadableType9'
+      name: ReadableType9
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.RegexEntity'
+      name: RegexEntity
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.RegexEntityExtractor'
+      name: RegexEntityExtractor
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.RegexModelCreateObject'
+      name: RegexModelCreateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.RegexModelUpdateObject'
+      name: RegexModelUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.Settings'
+      name: Settings
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.SettingsListResponse'
+      name: SettingsListResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.SettingsUpdateResponse'
+      name: SettingsUpdateResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.Status'
+      name: Status
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.Status1'
+      name: Status1
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.SubClosedList'
+      name: SubClosedList
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.SubClosedListResponse'
+      name: SubClosedListResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.TaskUpdateObject'
+      name: TaskUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.Train'
+      name: Train
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.TrainGetStatusResponse'
+      name: TrainGetStatusResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.TrainingStatus'
+      name: TrainingStatus
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.TrainTrainVersionResponse'
+      name: TrainTrainVersionResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.UserAccessList'
+      name: UserAccessList
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.UserCollaborator'
+      name: UserCollaborator
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.VersionInfo'
+      name: VersionInfo
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.Versions'
+      name: Versions
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.VersionsCloneResponse'
+      name: VersionsCloneResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.VersionsDeleteMethodResponse'
+      name: VersionsDeleteMethodResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.VersionsDeleteUnlabelledUtteranceResponse
+      name: VersionsDeleteUnlabelledUtteranceResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.VersionsExportLuFormatResponse'
+      name: VersionsExportLuFormatResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.VersionsExportMethodResponse'
+      name: VersionsExportMethodResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.VersionsGetResponse'
+      name: VersionsGetResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.VersionsImportLuFormatOptionalParams
+      name: VersionsImportLuFormatOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.VersionsImportLuFormatResponse'
+      name: VersionsImportLuFormatResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.VersionsImportMethodOptionalParams
+      name: VersionsImportMethodOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.VersionsImportMethodResponse'
+      name: VersionsImportMethodResponse
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-luis-authoring.VersionsImportV2AppOptionalParams
+      name: VersionsImportV2AppOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.VersionsImportV2AppResponse'
+      name: VersionsImportV2AppResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.VersionsListOptionalParams'
+      name: VersionsListOptionalParams
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.VersionsListResponse'
+      name: VersionsListResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.VersionsUpdateResponse'
+      name: VersionsUpdateResponse
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.WordListBaseUpdateObject'
+      name: WordListBaseUpdateObject
+      items: []
+    - uid: '@azure/cognitiveservices-luis-authoring.WordListObject'
+      name: WordListObject
+      items: []
