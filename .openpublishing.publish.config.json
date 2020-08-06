@@ -63,7 +63,7 @@
       "build_output_subfolder": "luis-authoring-js",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": ["luis-authoring-js-v4"."luis-authoring-js-v3"],
+      "moniker_ranges": ["luis-authoring-js-v4","luis-authoring-js-v3"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
