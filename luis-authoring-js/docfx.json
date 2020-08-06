@@ -7,14 +7,55 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "docs-ref-autogen",
+        "src": "v4/docs-ref-autogen",
+        "group": "luis-authoring-js-v4",
+        "dest": "api/testing",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "README.md",
           "LICENSE",
+          "toc.yml",
           "LICENSE-CODE",
           "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "v3/docs-ref-autogen",
+        "group": "luis-authoring-js-v3",
+        "dest": "api/testing",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "toc.yml",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v4/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-luis-authoring",
+        "group": "luis-authoring-js-v4",
+        "exclude": [
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v3/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-luis-authoring",
+        "group": "luis-runtime-js-v3",
+        "exclude": [
         ]
       },
       {
@@ -45,6 +86,17 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "~/breadcrumb/toc.yml"
+    },
+    "groups":
+    {
+      "luis-authoring-js-v4": {
+        "dest": "luis-authoring-js-v4",
+        "moniker_range": "luis-authoring-js-v4"
+      },
+      "luis-authoring-js-v3": {
+        "dest": "luis-authoring-js-v3",
+        "moniker_range": "luis-authoring-js-v3"
+      }
     },
     "fileMetadata": {},
     "template": [],
