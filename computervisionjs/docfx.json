@@ -120,6 +120,7 @@
     },
     "fileMetadata": {},
     "template": [],
+    "apiPlatform": "javascript",
     "dest": "_site"
   }
 }
