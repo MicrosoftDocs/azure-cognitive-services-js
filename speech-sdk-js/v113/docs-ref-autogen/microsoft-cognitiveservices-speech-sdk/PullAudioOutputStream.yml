@@ -1,0 +1,126 @@
+### YamlMime:UniversalReference
+items:
+  - uid: microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream
+    name: PullAudioOutputStream
+    fullName: PullAudioOutputStream
+    children:
+      - microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream.close
+      - microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream.create
+      - >-
+        microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream.createPullStream
+      - microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream.format
+      - microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream.read
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Represents memory backed push audio output stream used for custom audio
+      output configurations.
+    extends:
+      name: microsoft-cognitiveservices-speech-sdk.AudioOutputStream
+    package: microsoft-cognitiveservices-speech-sdk
+  - uid: microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream.close
+    name: close()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Closes the stream.
+    syntax:
+      content: function close()
+      parameters: []
+    package: microsoft-cognitiveservices-speech-sdk
+  - uid: microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream.create
+    name: create()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Creates a memory backed PullAudioOutputStream with the specified audio
+      format.
+    syntax:
+      content: static function create()
+      parameters: []
+      return:
+        type:
+          - microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream
+        description: The push audio output stream being created.
+    package: microsoft-cognitiveservices-speech-sdk
+  - uid: >-
+      microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream.createPullStream
+    name: createPullStream()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Creates a memory backed PullAudioOutputStream with the specified audio
+      format.
+    syntax:
+      content: static function createPullStream()
+      parameters: []
+      return:
+        type:
+          - microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream
+        description: The audio output stream being created.
+    package: microsoft-cognitiveservices-speech-sdk
+  - uid: microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream.format
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Sets the format of the AudioOutputStream
+
+      Note: the format is set by the synthesizer before writing. Do not set it
+      before passing it to AudioConfig
+    syntax:
+      content: any format
+      return:
+        type:
+          - any
+        description: ''
+    package: microsoft-cognitiveservices-speech-sdk
+  - uid: microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream.read
+    name: read(ArrayBuffer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Reads audio data from the internal buffer.
+    syntax:
+      content: 'function read(dataBuffer: ArrayBuffer)'
+      parameters:
+        - id: dataBuffer
+          type:
+            - ArrayBuffer
+          description: An ArrayBuffer to store the read data.
+      return:
+        type:
+          - microsoft-cognitiveservices-speech-sdk.Promise<number>
+        description: Audio buffer length has been read.
+    package: microsoft-cognitiveservices-speech-sdk
+references:
+  - uid: microsoft-cognitiveservices-speech-sdk.AudioOutputStream
+    name: AudioOutputStream
+    spec.typeScript:
+      - name: AudioOutputStream
+        fullName: AudioOutputStream
+        uid: microsoft-cognitiveservices-speech-sdk.AudioOutputStream
+  - uid: microsoft-cognitiveservices-speech-sdk.Promise<number>
+    name: Promise<number>
+    spec.typeScript:
+      - name: Promise
+        fullName: Promise
+        uid: microsoft-cognitiveservices-speech-sdk.Promise
+      - name: <number>
+        fullName: <number>
+  - uid: microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream
+    name: PullAudioOutputStream
+    spec.typeScript:
+      - name: PullAudioOutputStream
+        fullName: PullAudioOutputStream
+        uid: microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream
