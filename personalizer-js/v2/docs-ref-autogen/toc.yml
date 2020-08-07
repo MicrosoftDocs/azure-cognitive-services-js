@@ -1,0 +1,43 @@
+- name: '@azure/cognitiveservices-personalizer'
+  items:
+    - name: Overview
+      uid: '@azure/cognitiveservices-personalizer'
+    - uid: '@azure/cognitiveservices-personalizer.ErrorCode'
+      name: ErrorCode
+      items: []
+    - uid: '@azure/cognitiveservices-personalizer.ErrorResponse'
+      name: ErrorResponse
+      items: []
+    - uid: '@azure/cognitiveservices-personalizer.Events'
+      name: Events
+      items: []
+    - uid: '@azure/cognitiveservices-personalizer.InternalError'
+      name: InternalError
+      items: []
+    - uid: '@azure/cognitiveservices-personalizer.PersonalizerClient'
+      name: PersonalizerClient
+      items: []
+    - uid: '@azure/cognitiveservices-personalizer.PersonalizerClientContext'
+      name: PersonalizerClientContext
+      items: []
+    - uid: '@azure/cognitiveservices-personalizer.PersonalizerError'
+      name: PersonalizerError
+      items: []
+    - uid: '@azure/cognitiveservices-personalizer.RankableAction'
+      name: RankableAction
+      items: []
+    - uid: '@azure/cognitiveservices-personalizer.RankedAction'
+      name: RankedAction
+      items: []
+    - uid: '@azure/cognitiveservices-personalizer.RankRequest'
+      name: RankRequest
+      items: []
+    - uid: '@azure/cognitiveservices-personalizer.RankResponse'
+      name: RankResponse
+      items: []
+    - uid: '@azure/cognitiveservices-personalizer.RankResponse2'
+      name: RankResponse2
+      items: []
+    - uid: '@azure/cognitiveservices-personalizer.RewardRequest'
+      name: RewardRequest
+      items: []
