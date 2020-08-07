@@ -1,0 +1,98 @@
+- name: '@azure/cognitiveservices-textanalytics'
+  items:
+    - name: Overview
+      uid: '@azure/cognitiveservices-textanalytics'
+    - uid: '@azure/cognitiveservices-textanalytics.DetectedLanguage'
+      name: DetectedLanguage
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.DetectLanguageResponse'
+      name: DetectLanguageResponse
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.DocumentStatistics'
+      name: DocumentStatistics
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.EntitiesBatchResult'
+      name: EntitiesBatchResult
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.EntitiesBatchResultItem'
+      name: EntitiesBatchResultItem
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.EntitiesResponse'
+      name: EntitiesResponse
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.EntityRecord'
+      name: EntityRecord
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.ErrorRecord'
+      name: ErrorRecord
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.ErrorResponse'
+      name: ErrorResponse
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.InternalError'
+      name: InternalError
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.KeyPhraseBatchResult'
+      name: KeyPhraseBatchResult
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.KeyPhraseBatchResultItem'
+      name: KeyPhraseBatchResultItem
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.KeyPhrasesResponse'
+      name: KeyPhrasesResponse
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.LanguageBatchInput'
+      name: LanguageBatchInput
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.LanguageBatchResult'
+      name: LanguageBatchResult
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.LanguageBatchResultItem'
+      name: LanguageBatchResultItem
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.LanguageInput'
+      name: LanguageInput
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.MatchRecord'
+      name: MatchRecord
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.MultiLanguageBatchInput'
+      name: MultiLanguageBatchInput
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.MultiLanguageInput'
+      name: MultiLanguageInput
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.RequestStatistics'
+      name: RequestStatistics
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.SentimentBatchResult'
+      name: SentimentBatchResult
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.SentimentBatchResultItem'
+      name: SentimentBatchResultItem
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.SentimentResponse'
+      name: SentimentResponse
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClient'
+      name: TextAnalyticsClient
+      items: []
+    - uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientContext'
+      name: TextAnalyticsClientContext
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-textanalytics.TextAnalyticsClientDetectLanguageOptionalParams
+      name: TextAnalyticsClientDetectLanguageOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-textanalytics.TextAnalyticsClientEntitiesOptionalParams
+      name: TextAnalyticsClientEntitiesOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-textanalytics.TextAnalyticsClientKeyPhrasesOptionalParams
+      name: TextAnalyticsClientKeyPhrasesOptionalParams
+      items: []
+    - uid: >-
+        @azure/cognitiveservices-textanalytics.TextAnalyticsClientSentimentOptionalParams
+      name: TextAnalyticsClientSentimentOptionalParams
+      items: []
