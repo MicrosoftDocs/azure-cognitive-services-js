@@ -7,14 +7,27 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "docs-ref-autogen",
+        "group":  "text-js-analytics-v4",
+        "dest": "api/testing",
+        "src": "v4/docs-ref-autogen",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "README.md",
           "LICENSE",
+          "toc.yml",
           "LICENSE-CODE",
           "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v4/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-textanalytics",
+        "group": "text-js-analytics-v4",
+        "exclude": [
         ]
       },
       {
@@ -41,12 +54,24 @@
         ]
       }
     ],
+    "groups":
+    {
+      "text-js-analytics-v5": {
+        "dest": "text-js-analytics-v5",
+        "moniker_range": "text-js-analytics-v5"
+      },
+      "text-js-analytics-v4": {
+        "dest": "text-js-analytics-v4",
+        "moniker_range": "text-js-analytics-v4"
+      }
+    },
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "~/breadcrumb/toc.yml"
     },
     "fileMetadata": {},
+    "apiPlatform": "javascript",
     "template": [],
     "dest": "_site"
   }
