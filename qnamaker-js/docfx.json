@@ -9,6 +9,7 @@
         ],
         "src": "v2/docs-ref-autogen",
         "group": "qna-maker-js-v2",
+        "dest": "api/testing",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
