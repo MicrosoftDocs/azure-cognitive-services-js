@@ -57,17 +57,6 @@
         "group": "autosuggest-v2",
         "exclude": [
         ]
-      },
-      {
-        "files": [
-          "**/*.yml"
-        ],
-        "src": "breadcrumb",
-        "dest": "api/testing/breadcrumb",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
       }
     ],
     "resource": [
@@ -96,7 +85,6 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/breadcrumb/toc.yml"
     },
     "fileMetadata": {},
     "apiPlatform": "javascript",
