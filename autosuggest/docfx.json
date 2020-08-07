@@ -57,6 +57,17 @@
         "group": "autosuggest-v2",
         "exclude": [
         ]
+      },
+      {
+        "files": [
+          "**/*.yml"
+        ],
+        "src": "breadcrumb",
+        "dest": "breadcrumb",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
       }
     ],
     "resource": [
