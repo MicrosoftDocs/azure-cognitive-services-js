@@ -1,0 +1,169 @@
+- name: '@azure/cognitiveservices-qnamaker'
+  items:
+    - name: Overview
+      uid: '@azure/cognitiveservices-qnamaker'
+    - uid: '@azure/cognitiveservices-qnamaker.Alterations'
+      name: Alterations
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.AlterationsDTO'
+      name: AlterationsDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.AlterationsGetResponse'
+      name: AlterationsGetResponse
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.ContextDTO'
+      name: ContextDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.CreateKbDTO'
+      name: CreateKbDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.CreateKbInputDTO'
+      name: CreateKbInputDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.DeleteKbContentsDTO'
+      name: DeleteKbContentsDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.EndpointKeys'
+      name: EndpointKeys
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.EndpointKeysDTO'
+      name: EndpointKeysDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.EndpointKeysGetKeysResponse'
+      name: EndpointKeysGetKeysResponse
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.EndpointKeysRefreshKeysResponse'
+      name: EndpointKeysRefreshKeysResponse
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.EnvironmentType'
+      name: EnvironmentType
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.ErrorCodeType'
+      name: ErrorCodeType
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.ErrorModel'
+      name: ErrorModel
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.ErrorResponse'
+      name: ErrorResponse
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.ErrorResponseError'
+      name: ErrorResponseError
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.FileDTO'
+      name: FileDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.InnerErrorModel'
+      name: InnerErrorModel
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.Knowledgebase'
+      name: Knowledgebase
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.KnowledgebaseCreateResponse'
+      name: KnowledgebaseCreateResponse
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.KnowledgebaseDownloadResponse'
+      name: KnowledgebaseDownloadResponse
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.KnowledgebaseDTO'
+      name: KnowledgebaseDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.KnowledgebaseEnvironmentType'
+      name: KnowledgebaseEnvironmentType
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.KnowledgebaseGetDetailsResponse'
+      name: KnowledgebaseGetDetailsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.KnowledgebaseListAllResponse'
+      name: KnowledgebaseListAllResponse
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.KnowledgebasesDTO'
+      name: KnowledgebasesDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.KnowledgebaseUpdateHeaders'
+      name: KnowledgebaseUpdateHeaders
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.KnowledgebaseUpdateResponse'
+      name: KnowledgebaseUpdateResponse
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.MetadataDTO'
+      name: MetadataDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.Operation'
+      name: Operation
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.Operations'
+      name: Operations
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.OperationsGetDetailsHeaders'
+      name: OperationsGetDetailsHeaders
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.OperationsGetDetailsResponse'
+      name: OperationsGetDetailsResponse
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.OperationStateType'
+      name: OperationStateType
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.PromptDTO'
+      name: PromptDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.PromptDTOQna'
+      name: PromptDTOQna
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.QnADocumentsDTO'
+      name: QnADocumentsDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.QnADTO'
+      name: QnADTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.QnADTOContext'
+      name: QnADTOContext
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.QnAMakerClient'
+      name: QnAMakerClient
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.QnAMakerClientContext'
+      name: QnAMakerClientContext
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.ReplaceKbDTO'
+      name: ReplaceKbDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.UpdateContextDTO'
+      name: UpdateContextDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.UpdateKbContentsDTO'
+      name: UpdateKbContentsDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.UpdateKbOperationDTO'
+      name: UpdateKbOperationDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.UpdateKbOperationDTOAdd'
+      name: UpdateKbOperationDTOAdd
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.UpdateKbOperationDTODelete'
+      name: UpdateKbOperationDTODelete
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.UpdateKbOperationDTOUpdate'
+      name: UpdateKbOperationDTOUpdate
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.UpdateMetadataDTO'
+      name: UpdateMetadataDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.UpdateQnaDTO'
+      name: UpdateQnaDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.UpdateQnaDTOContext'
+      name: UpdateQnaDTOContext
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.UpdateQnaDTOMetadata'
+      name: UpdateQnaDTOMetadata
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.UpdateQnaDTOQuestions'
+      name: UpdateQnaDTOQuestions
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.UpdateQuestionsDTO'
+      name: UpdateQuestionsDTO
+      items: []
+    - uid: '@azure/cognitiveservices-qnamaker.WordAlterationsDTO'
+      name: WordAlterationsDTO
+      items: []
