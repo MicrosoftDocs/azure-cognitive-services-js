@@ -54,7 +54,7 @@
         ],
         "src": "v3/docs-ref-autogen",
         "dest": "api/testing/@azure/cognitiveservices-luis-authoring",
-        "group": "luis-runtime-js-v3",
+        "group": "luis-authoring-js-v3",
         "exclude": [
         ]
       },
