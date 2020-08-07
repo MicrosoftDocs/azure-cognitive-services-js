@@ -7,14 +7,55 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "docs-ref-autogen",
+        "src": "v1/docs-ref-autogen",
+        "dest": "api/testing",
+        "group": "personalizer-js-v1",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "README.md",
           "LICENSE",
+          "toc.yml",
           "LICENSE-CODE",
           "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "v2/docs-ref-autogen",
+        "group": "personalizer-js-v2",
+        "dest": "api/testing",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "toc.yml",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v1/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-personalizer",
+        "group": "personalizer-js-v1",
+        "exclude": [
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v2/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-personalizer",
+        "group": "personalizer-js-v2",
+        "exclude": [
         ]
       },
       {
@@ -41,6 +82,17 @@
         ]
       }
     ],
+    "groups":
+    {
+      "personalizer-js-v2": {
+        "dest": "personalizer-js-v2",
+        "moniker_range": "personalizer-js-v2"
+      },
+      "personalizer-js-v1": {
+        "dest": "personalizer-js-v1",
+        "moniker_range": "personalizer-js-v1"
+      }
+    },
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
@@ -48,6 +100,7 @@
     },
     "fileMetadata": {},
     "template": [],
+    "apiPlatform": "javascript",
     "dest": "_site"
   }
 }
