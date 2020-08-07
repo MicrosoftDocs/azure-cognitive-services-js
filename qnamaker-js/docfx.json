@@ -7,14 +7,54 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "docs-ref-autogen",
+        "src": "v2/docs-ref-autogen",
+        "group": "qna-maker-js-v2",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "README.md",
           "LICENSE",
+          "toc.yml",
           "LICENSE-CODE",
           "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "v3/docs-ref-autogen",
+        "group": "qna-maker-js-v3",
+        "dest": "api/testing",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "toc.yml",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v3/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-qnamaker",
+        "group": "qna-maker-js-v3",
+        "exclude": [
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v2/docs-ref-autogen",
+        "dest": "api/testing/@azure/cognitiveservices-qnamaker",
+        "group": "qna-maker-js-v2",
+        "exclude": [
         ]
       },
       {
@@ -41,6 +81,17 @@
         ]
       }
     ],
+    "groups":
+    {
+      "qna-maker-js-v2": {
+        "dest": "qna-maker-js-v2",
+        "moniker_range": "qna-maker-js-v2"
+      },
+      "qna-maker-js-v3": {
+        "dest": "qna-maker-js-v3",
+        "moniker_range": "qna-maker-js-v3"
+      }
+    },
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
