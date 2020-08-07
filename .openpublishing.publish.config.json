@@ -6,7 +6,7 @@
       "build_output_subfolder": "autosuggest",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": ["autosuggest-v1","autosuggest-v2"],
+      "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -44,7 +44,7 @@
       "build_output_subfolder": "computervisionjs",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": ["computervision-v7","computervision-v6","computervision-v5","computervision-v4"],
+      "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -63,7 +63,7 @@
       "build_output_subfolder": "luis-authoring-js",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": ["luis-authoring-js-v4","luis-authoring-js-v3"],
+      "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -82,7 +82,26 @@
       "build_output_subfolder": "luis-runtime-js",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": ["luis-runtime-js-v5","luis-runtime-js-v4","luis-runtime-js-v3"],
+      "moniker_ranges": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content",
+        "UniversalReference": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "base_path": "javascript",
+      "site_name": "Docs"
+    },
+    {
+      "docset_name": "qnamaker-js",
+      "build_source_folder": "qnamaker-js",
+      "build_output_subfolder": "qnamaker-js",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
