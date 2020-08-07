@@ -6,7 +6,7 @@
       "build_output_subfolder": "autosuggest",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": ["autosuggest-v1","autosuggest-v2"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -44,7 +44,7 @@
       "build_output_subfolder": "computervisionjs",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": ["computervision-v7","computervision-v6","computervision-v5","computervision-v4"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -63,7 +63,7 @@
       "build_output_subfolder": "luis-authoring-js",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": ["luis-authoring-js-v4","luis-authoring-js-v3"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -82,7 +82,7 @@
       "build_output_subfolder": "luis-runtime-js",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": ["luis-runtime-js-v5","luis-runtime-js-v4","luis-runtime-js-v3"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -101,7 +101,7 @@
       "build_output_subfolder": "qnamaker-js",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": ["qna-maker-js-v2","qna-maker-js-v3"],  
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -120,7 +120,7 @@
       "build_output_subfolder": "speech-sdk-js",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": ["speech-sdk-v112","speech-sdk-v113"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",

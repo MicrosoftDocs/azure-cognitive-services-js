@@ -7,14 +7,55 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "docs-ref-autogen",
+        "src": "v112/docs-ref-autogen",
+        "group": "speech-sdk-v112",
+        "dest": "api/testing",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "README.md",
           "LICENSE",
+          "toc.yml",
           "LICENSE-CODE",
           "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "v113/docs-ref-autogen",
+        "group": "speech-sdk-v113",
+        "dest": "api/testing",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "toc.yml",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v113/docs-ref-autogen",
+        "dest": "api/testing/microsoft-cognitiveservices-speech-sdk",
+        "group": "speech-sdk-v113",
+        "exclude": [
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "v112/docs-ref-autogen",
+        "dest": "api/testing/microsoft-cognitiveservices-speech-sdk",
+        "group": "speech-sdk-v112",
+        "exclude": [
         ]
       },
       {
@@ -41,6 +82,17 @@
         ]
       }
     ],
+    "groups":
+    {
+      "speech-sdk-v113": {
+        "dest": "speech-sdk-v113",
+        "moniker_range": "speech-sdk-v113"
+      },
+      "speech-sdk-v112": {
+        "dest": "speech-sdk-v112",
+        "moniker_range": "speech-sdk-v112"
+      }
+    },
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
