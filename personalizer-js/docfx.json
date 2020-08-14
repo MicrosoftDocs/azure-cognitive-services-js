@@ -60,6 +60,15 @@
       },
       {
         "files": [
+          "overview.md"
+        ],
+        "src": "overviews/personalizer-js",
+        "dest": "api/testing/@azure/cognitiveservices-personalizer/overviews",
+        "group": "",
+        "exclude": []
+      },
+      {
+        "files": [
           "**/*.yml"
         ],
         "src": "breadcrumb",

@@ -186,6 +186,12 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "personalizer-js/overviews",
+      "url": "https://github.com/MicrosoftDocs/azure-cognitive-services-js",
+      "branch": "content",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {},
