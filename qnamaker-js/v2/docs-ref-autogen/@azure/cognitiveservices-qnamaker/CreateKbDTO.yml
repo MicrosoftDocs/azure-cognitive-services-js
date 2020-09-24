@@ -1,99 +1,67 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@azure/cognitiveservices-qnamaker.CreateKbDTO'
-    name: CreateKbDTO
-    fullName: CreateKbDTO
-    children:
-      - '@azure/cognitiveservices-qnamaker.CreateKbDTO.files'
-      - '@azure/cognitiveservices-qnamaker.CreateKbDTO.name'
-      - '@azure/cognitiveservices-qnamaker.CreateKbDTO.qnaList'
-      - '@azure/cognitiveservices-qnamaker.CreateKbDTO.urls'
-    langs:
-      - typeScript
-    type: interface
-    summary: Post body schema for CreateKb operation.
+### YamlMime:TSType
+name: CreateKbDTO
+uid: '@azure/cognitiveservices-qnamaker.CreateKbDTO'
+package: '@azure/cognitiveservices-qnamaker'
+summary: Post body schema for CreateKb operation.
+fullName: CreateKbDTO
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: files
+    uid: '@azure/cognitiveservices-qnamaker.CreateKbDTO.files'
     package: '@azure/cognitiveservices-qnamaker'
-  - uid: '@azure/cognitiveservices-qnamaker.CreateKbDTO.files'
-    name: files
-    fullName: files
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: List of files from which to Extract Q-A.
-    optional: true
+    fullName: files
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'files?: FileDTO[]'
       return:
-        type:
-          - '@azure/cognitiveservices-qnamaker.FileDTO[]'
+        type: '<xref uid="@azure/cognitiveservices-qnamaker.FileDTO" />[]'
         description: ''
+  - name: name
+    uid: '@azure/cognitiveservices-qnamaker.CreateKbDTO.name'
     package: '@azure/cognitiveservices-qnamaker'
-  - uid: '@azure/cognitiveservices-qnamaker.CreateKbDTO.name'
-    name: name
-    fullName: name
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: Friendly name for the knowledgebase.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'name: string'
       return:
-        type:
-          - string
+        type: string
         description: ''
+  - name: qnaList
+    uid: '@azure/cognitiveservices-qnamaker.CreateKbDTO.qnaList'
     package: '@azure/cognitiveservices-qnamaker'
-  - uid: '@azure/cognitiveservices-qnamaker.CreateKbDTO.qnaList'
-    name: qnaList
-    fullName: qnaList
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >-
       List of Q-A (QnADTO) to be added to the knowledgebase. Q-A Ids are
       assigned by the service and
 
       should be omitted.
-    optional: true
+    fullName: qnaList
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'qnaList?: QnADTO[]'
       return:
-        type:
-          - '@azure/cognitiveservices-qnamaker.QnADTO[]'
+        type: '<xref uid="@azure/cognitiveservices-qnamaker.QnADTO" />[]'
         description: ''
+  - name: urls
+    uid: '@azure/cognitiveservices-qnamaker.CreateKbDTO.urls'
     package: '@azure/cognitiveservices-qnamaker'
-  - uid: '@azure/cognitiveservices-qnamaker.CreateKbDTO.urls'
-    name: urls
-    fullName: urls
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: List of URLs to be used for extracting Q-A.
-    optional: true
+    fullName: urls
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'urls?: string[]'
       return:
-        type:
-          - 'string[]'
+        type: 'string[]'
         description: ''
-    package: '@azure/cognitiveservices-qnamaker'
-references:
-  - uid: '@azure/cognitiveservices-qnamaker.FileDTO[]'
-    name: 'FileDTO[]'
-    spec.typeScript:
-      - name: FileDTO
-        fullName: FileDTO
-        uid: '@azure/cognitiveservices-qnamaker.FileDTO'
-      - name: '[]'
-        fullName: '[]'
-  - uid: '@azure/cognitiveservices-qnamaker.QnADTO[]'
-    name: 'QnADTO[]'
-    spec.typeScript:
-      - name: QnADTO
-        fullName: QnADTO
-        uid: '@azure/cognitiveservices-qnamaker.QnADTO'
-      - name: '[]'
-        fullName: '[]'
