@@ -1,30 +1,31 @@
 ### YamlMime:TSType
-name: ConnectionMessageImpl
-uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessageImpl
+name: ConnectionMessage
+uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessage
 package: microsoft-cognitiveservices-speech-sdk
-summary: ''
-fullName: ConnectionMessageImpl
+summary: >-
+  ConnectionMessage represents implementation specific messages sent to and
+  received from
+
+  the speech service. These messages are provided for debugging purposes and
+  should not
+
+  be used for production use cases with the Azure Cognitive Services Speech
+  Service.
+
+  Messages sent to and received from the Speech Service are subject to change
+  without
+
+  notice. This includes message contents, headers, payloads, ordering, etc.
+
+  Added in version 1.11.0.
+fullName: ConnectionMessage
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: class
-constructors:
-  - name: ConnectionMessageImpl(IntConnectionMessage)
-    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessageImpl.constructor
-    package: microsoft-cognitiveservices-speech-sdk
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'new ConnectionMessageImpl(message: IntConnectionMessage)'
-      parameters:
-        - id: message
-          type: IntConnectionMessage
-          description: ''
 properties:
   - name: binaryMessage
-    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessageImpl.binaryMessage
+    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessage.binaryMessage
     package: microsoft-cognitiveservices-speech-sdk
     summary: Gets the binary message payload.
     fullName: binaryMessage
@@ -37,8 +38,7 @@ properties:
         type: ArrayBuffer
         description: ''
   - name: isBinaryMessage
-    uid: >-
-      microsoft-cognitiveservices-speech-sdk.ConnectionMessageImpl.isBinaryMessage
+    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessage.isBinaryMessage
     package: microsoft-cognitiveservices-speech-sdk
     summary: |-
       Checks to see if the ConnectionMessage is a binary message.
@@ -53,7 +53,7 @@ properties:
         type: boolean
         description: ''
   - name: isTextMessage
-    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessageImpl.isTextMessage
+    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessage.isTextMessage
     package: microsoft-cognitiveservices-speech-sdk
     summary: |-
       Checks to see if the ConnectionMessage is a text message.
@@ -68,7 +68,7 @@ properties:
         type: boolean
         description: ''
   - name: path
-    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessageImpl.path
+    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessage.path
     package: microsoft-cognitiveservices-speech-sdk
     summary: The message path.
     fullName: path
@@ -81,7 +81,7 @@ properties:
         type: string
         description: ''
   - name: properties
-    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessageImpl.properties
+    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessage.properties
     package: microsoft-cognitiveservices-speech-sdk
     summary: >-
       A collection of properties and their values defined for this <see
@@ -100,7 +100,7 @@ properties:
           />
         description: ''
   - name: TextMessage
-    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessageImpl.TextMessage
+    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessage.TextMessage
     package: microsoft-cognitiveservices-speech-sdk
     summary: |-
       Gets the text message payload. Typically the text message content-type is
@@ -117,7 +117,7 @@ properties:
         description: ''
 methods:
   - name: toString()
-    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessageImpl.toString
+    uid: microsoft-cognitiveservices-speech-sdk.ConnectionMessage.toString
     package: microsoft-cognitiveservices-speech-sdk
     summary: Returns a string that represents the connection message.
     remarks: ''
