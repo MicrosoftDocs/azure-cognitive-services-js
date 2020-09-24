@@ -1,76 +1,76 @@
 ### YamlMime:TSType
-name: IPhrase
-uid: microsoft-cognitiveservices-speech-sdk.IPhrase
+name: Request
+uid: microsoft-cognitiveservices-speech-sdk.Request
 package: microsoft-cognitiveservices-speech-sdk
 summary: ''
-fullName: IPhrase
+fullName: Request
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: interface
 properties:
-  - name: Confidence
-    uid: microsoft-cognitiveservices-speech-sdk.IPhrase.Confidence
+  - name: cert
+    uid: microsoft-cognitiveservices-speech-sdk.Request.cert
     package: microsoft-cognitiveservices-speech-sdk
     summary: ''
-    fullName: Confidence
+    fullName: cert
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'Confidence?: number'
+      content: 'cert: any'
       return:
-        type: number
+        type: any
         description: ''
-  - name: Display
-    uid: microsoft-cognitiveservices-speech-sdk.IPhrase.Display
+  - name: certID
+    uid: microsoft-cognitiveservices-speech-sdk.Request.certID
     package: microsoft-cognitiveservices-speech-sdk
     summary: ''
-    fullName: Display
+    fullName: certID
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'Display: string'
+      content: 'certID: any'
       return:
-        type: string
+        type: any
         description: ''
-  - name: ITN
-    uid: microsoft-cognitiveservices-speech-sdk.IPhrase.ITN
+  - name: data
+    uid: microsoft-cognitiveservices-speech-sdk.Request.data
     package: microsoft-cognitiveservices-speech-sdk
     summary: ''
-    fullName: ITN
+    fullName: data
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'ITN: string'
+      content: 'data: any'
       return:
-        type: string
+        type: any
         description: ''
-  - name: Lexical
-    uid: microsoft-cognitiveservices-speech-sdk.IPhrase.Lexical
+  - name: id
+    uid: microsoft-cognitiveservices-speech-sdk.Request.id
     package: microsoft-cognitiveservices-speech-sdk
     summary: ''
-    fullName: Lexical
+    fullName: id
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'Lexical: string'
+      content: 'id: Buffer'
       return:
-        type: string
+        type: Buffer
         description: ''
-  - name: MaskedITN
-    uid: microsoft-cognitiveservices-speech-sdk.IPhrase.MaskedITN
+  - name: issuer
+    uid: microsoft-cognitiveservices-speech-sdk.Request.issuer
     package: microsoft-cognitiveservices-speech-sdk
     summary: ''
-    fullName: MaskedITN
+    fullName: issuer
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'MaskedITN: string'
+      content: 'issuer: any'
       return:
-        type: string
+        type: any
         description: ''
