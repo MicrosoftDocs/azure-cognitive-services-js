@@ -1,16 +1,13 @@
-### YamlMime:UniversalReference
-items:
-  - uid: >-
-      @azure/cognitiveservices-luis-authoring.ModelAddHierarchicalEntityChildResponse
-    name: ModelAddHierarchicalEntityChildResponse
-    fullName: ModelAddHierarchicalEntityChildResponse
-    children: []
-    langs:
-      - typeScript
-    type: type alias
-    summary: Contains response data for the addHierarchicalEntityChild operation.
-    syntax:
-      content: >-
-        type ModelAddHierarchicalEntityChildResponse = { _response: Object,
-        body: string }
-    package: '@azure/cognitiveservices-luis-authoring'
+### YamlMime:TSTypeAlias
+name: ModelAddHierarchicalEntityChildResponse
+uid: >-
+  @azure/cognitiveservices-luis-authoring.ModelAddHierarchicalEntityChildResponse
+package: '@azure/cognitiveservices-luis-authoring'
+summary: Contains response data for the addHierarchicalEntityChild operation.
+fullName: ModelAddHierarchicalEntityChildResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ModelAddHierarchicalEntityChildResponse = { _response: Object, body:
+  string }

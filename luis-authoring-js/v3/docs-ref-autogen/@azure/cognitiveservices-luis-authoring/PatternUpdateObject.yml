@@ -1,62 +1,50 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@azure/cognitiveservices-luis-authoring.PatternUpdateObject'
-    name: PatternUpdateObject
-    fullName: PatternUpdateObject
-    children:
-      - '@azure/cognitiveservices-luis-authoring.PatternUpdateObject.isActive'
-      - '@azure/cognitiveservices-luis-authoring.PatternUpdateObject.name'
-      - '@azure/cognitiveservices-luis-authoring.PatternUpdateObject.pattern'
-    langs:
-      - typeScript
-    type: interface
-    summary: Object model for updating an existing Pattern feature.
+### YamlMime:TSType
+name: PatternUpdateObject
+uid: '@azure/cognitiveservices-luis-authoring.PatternUpdateObject'
+package: '@azure/cognitiveservices-luis-authoring'
+summary: Object model for updating an existing Pattern feature.
+fullName: PatternUpdateObject
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: isActive
+    uid: '@azure/cognitiveservices-luis-authoring.PatternUpdateObject.isActive'
     package: '@azure/cognitiveservices-luis-authoring'
-  - uid: '@azure/cognitiveservices-luis-authoring.PatternUpdateObject.isActive'
-    name: isActive
-    fullName: isActive
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: 'Indicates if the Pattern feature is enabled. Default value: true.'
-    optional: true
+    fullName: isActive
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'isActive?: undefined | false | true'
       return:
-        type:
-          - undefined | false | true
+        type: undefined | false | true
         description: ''
+  - name: name
+    uid: '@azure/cognitiveservices-luis-authoring.PatternUpdateObject.name'
     package: '@azure/cognitiveservices-luis-authoring'
-  - uid: '@azure/cognitiveservices-luis-authoring.PatternUpdateObject.name'
-    name: name
-    fullName: name
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: Name of the feature.
-    optional: true
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'name?: undefined | string'
       return:
-        type:
-          - undefined | string
+        type: undefined | string
         description: ''
+  - name: pattern
+    uid: '@azure/cognitiveservices-luis-authoring.PatternUpdateObject.pattern'
     package: '@azure/cognitiveservices-luis-authoring'
-  - uid: '@azure/cognitiveservices-luis-authoring.PatternUpdateObject.pattern'
-    name: pattern
-    fullName: pattern
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: The Regular Expression to match.
-    optional: true
+    fullName: pattern
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'pattern?: undefined | string'
       return:
-        type:
-          - undefined | string
+        type: undefined | string
         description: ''
-    package: '@azure/cognitiveservices-luis-authoring'

@@ -1,28 +1,24 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@azure/cognitiveservices-autosuggest.Identifiable'
-    name: Identifiable
-    fullName: Identifiable
-    children:
-      - '@azure/cognitiveservices-autosuggest.Identifiable.id'
-    langs:
-      - typeScript
-    type: interface
-    summary: ''
+### YamlMime:TSType
+name: Identifiable
+uid: '@azure/cognitiveservices-autosuggest.Identifiable'
+package: '@azure/cognitiveservices-autosuggest'
+summary: ''
+fullName: Identifiable
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: id
+    uid: '@azure/cognitiveservices-autosuggest.Identifiable.id'
     package: '@azure/cognitiveservices-autosuggest'
-  - uid: '@azure/cognitiveservices-autosuggest.Identifiable.id'
-    name: id
-    fullName: id
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: ''
-    optional: true
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'id?: undefined | string'
       return:
-        type:
-          - undefined | string
+        type: undefined | string
         description: ''
-    package: '@azure/cognitiveservices-autosuggest'

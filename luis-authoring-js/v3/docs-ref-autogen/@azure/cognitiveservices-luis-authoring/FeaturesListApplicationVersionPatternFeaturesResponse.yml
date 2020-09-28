@@ -1,18 +1,15 @@
-### YamlMime:UniversalReference
-items:
-  - uid: >-
-      @azure/cognitiveservices-luis-authoring.FeaturesListApplicationVersionPatternFeaturesResponse
-    name: FeaturesListApplicationVersionPatternFeaturesResponse
-    fullName: FeaturesListApplicationVersionPatternFeaturesResponse
-    children: []
-    langs:
-      - typeScript
-    type: type alias
-    summary: >-
-      Contains response data for the listApplicationVersionPatternFeatures
-      operation.
-    syntax:
-      content: >-
-        type FeaturesListApplicationVersionPatternFeaturesResponse =
-        Array<PatternFeatureInfo> & { _response: Object }
-    package: '@azure/cognitiveservices-luis-authoring'
+### YamlMime:TSTypeAlias
+name: FeaturesListApplicationVersionPatternFeaturesResponse
+uid: >-
+  @azure/cognitiveservices-luis-authoring.FeaturesListApplicationVersionPatternFeaturesResponse
+package: '@azure/cognitiveservices-luis-authoring'
+summary: >-
+  Contains response data for the listApplicationVersionPatternFeatures
+  operation.
+fullName: FeaturesListApplicationVersionPatternFeaturesResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type FeaturesListApplicationVersionPatternFeaturesResponse =
+  Array<PatternFeatureInfo> & { _response: Object }
