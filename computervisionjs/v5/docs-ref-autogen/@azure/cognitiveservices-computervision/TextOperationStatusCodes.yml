@@ -1,17 +1,14 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@azure/cognitiveservices-computervision.TextOperationStatusCodes'
-    name: TextOperationStatusCodes
-    fullName: TextOperationStatusCodes
-    children: []
-    langs:
-      - typeScript
-    type: type alias
-    summary: |-
-      Defines values for TextOperationStatusCodes.
-      Possible values include: 'NotStarted', 'Running', 'Failed', 'Succeeded'
-    syntax:
-      content: >-
-        type TextOperationStatusCodes = "NotStarted" | "Running" | "Failed" |
-        "Succeeded"
-    package: '@azure/cognitiveservices-computervision'
+### YamlMime:TSTypeAlias
+name: TextOperationStatusCodes
+uid: '@azure/cognitiveservices-computervision.TextOperationStatusCodes'
+package: '@azure/cognitiveservices-computervision'
+summary: |-
+  Defines values for TextOperationStatusCodes.
+  Possible values include: 'NotStarted', 'Running', 'Failed', 'Succeeded'
+fullName: TextOperationStatusCodes
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type TextOperationStatusCodes = "NotStarted" | "Running" | "Failed" |
+  "Succeeded"

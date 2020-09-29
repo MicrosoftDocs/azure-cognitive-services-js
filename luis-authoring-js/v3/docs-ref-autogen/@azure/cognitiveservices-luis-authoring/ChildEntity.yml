@@ -1,44 +1,37 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@azure/cognitiveservices-luis-authoring.ChildEntity'
-    name: ChildEntity
-    fullName: ChildEntity
-    children:
-      - '@azure/cognitiveservices-luis-authoring.ChildEntity.id'
-      - '@azure/cognitiveservices-luis-authoring.ChildEntity.name'
-    langs:
-      - typeScript
-    type: interface
-    summary: The base child entity type.
+### YamlMime:TSType
+name: ChildEntity
+uid: '@azure/cognitiveservices-luis-authoring.ChildEntity'
+package: '@azure/cognitiveservices-luis-authoring'
+summary: The base child entity type.
+fullName: ChildEntity
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: id
+    uid: '@azure/cognitiveservices-luis-authoring.ChildEntity.id'
     package: '@azure/cognitiveservices-luis-authoring'
-  - uid: '@azure/cognitiveservices-luis-authoring.ChildEntity.id'
-    name: id
-    fullName: id
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: The ID (GUID) belonging to a child entity.
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'id: string'
       return:
-        type:
-          - string
+        type: string
         description: ''
+  - name: name
+    uid: '@azure/cognitiveservices-luis-authoring.ChildEntity.name'
     package: '@azure/cognitiveservices-luis-authoring'
-  - uid: '@azure/cognitiveservices-luis-authoring.ChildEntity.name'
-    name: name
-    fullName: name
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: The name of a child entity.
-    optional: true
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'name?: undefined | string'
       return:
-        type:
-          - undefined | string
+        type: undefined | string
         description: ''
-    package: '@azure/cognitiveservices-luis-authoring'

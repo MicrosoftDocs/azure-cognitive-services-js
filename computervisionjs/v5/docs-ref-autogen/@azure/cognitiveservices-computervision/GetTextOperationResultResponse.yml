@@ -1,15 +1,12 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@azure/cognitiveservices-computervision.GetTextOperationResultResponse'
-    name: GetTextOperationResultResponse
-    fullName: GetTextOperationResultResponse
-    children: []
-    langs:
-      - typeScript
-    type: type alias
-    summary: Contains response data for the getTextOperationResult operation.
-    syntax:
-      content: >-
-        type GetTextOperationResultResponse = TextOperationResult & { _response:
-        Object }
-    package: '@azure/cognitiveservices-computervision'
+### YamlMime:TSTypeAlias
+name: GetTextOperationResultResponse
+uid: '@azure/cognitiveservices-computervision.GetTextOperationResultResponse'
+package: '@azure/cognitiveservices-computervision'
+summary: Contains response data for the getTextOperationResult operation.
+fullName: GetTextOperationResultResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type GetTextOperationResultResponse = TextOperationResult & { _response:
+  Object }

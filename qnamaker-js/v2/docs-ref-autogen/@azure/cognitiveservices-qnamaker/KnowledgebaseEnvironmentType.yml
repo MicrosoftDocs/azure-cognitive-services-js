@@ -1,15 +1,12 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@azure/cognitiveservices-qnamaker.KnowledgebaseEnvironmentType'
-    name: KnowledgebaseEnvironmentType
-    fullName: KnowledgebaseEnvironmentType
-    children: []
-    langs:
-      - typeScript
-    type: type alias
-    summary: |-
-      Defines values for KnowledgebaseEnvironmentType.
-      Possible values include: 'Prod', 'Test'
-    syntax:
-      content: type KnowledgebaseEnvironmentType = "Prod" | "Test"
-    package: '@azure/cognitiveservices-qnamaker'
+### YamlMime:TSTypeAlias
+name: KnowledgebaseEnvironmentType
+uid: '@azure/cognitiveservices-qnamaker.KnowledgebaseEnvironmentType'
+package: '@azure/cognitiveservices-qnamaker'
+summary: |-
+  Defines values for KnowledgebaseEnvironmentType.
+  Possible values include: 'Prod', 'Test'
+fullName: KnowledgebaseEnvironmentType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type KnowledgebaseEnvironmentType = "Prod" | "Test"

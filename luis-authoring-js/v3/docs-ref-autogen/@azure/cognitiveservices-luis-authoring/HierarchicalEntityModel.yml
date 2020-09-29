@@ -1,45 +1,37 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@azure/cognitiveservices-luis-authoring.HierarchicalEntityModel'
-    name: HierarchicalEntityModel
-    fullName: HierarchicalEntityModel
-    children:
-      - '@azure/cognitiveservices-luis-authoring.HierarchicalEntityModel.children'
-      - '@azure/cognitiveservices-luis-authoring.HierarchicalEntityModel.name'
-    langs:
-      - typeScript
-    type: interface
-    summary: A hierarchical entity extractor.
+### YamlMime:TSType
+name: HierarchicalEntityModel
+uid: '@azure/cognitiveservices-luis-authoring.HierarchicalEntityModel'
+package: '@azure/cognitiveservices-luis-authoring'
+summary: A hierarchical entity extractor.
+fullName: HierarchicalEntityModel
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: children
+    uid: '@azure/cognitiveservices-luis-authoring.HierarchicalEntityModel.children'
     package: '@azure/cognitiveservices-luis-authoring'
-  - uid: '@azure/cognitiveservices-luis-authoring.HierarchicalEntityModel.children'
-    name: children
-    fullName: children
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: Child entities.
-    optional: true
+    fullName: children
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'children?: string[]'
       return:
-        type:
-          - 'string[]'
+        type: 'string[]'
         description: ''
+  - name: name
+    uid: '@azure/cognitiveservices-luis-authoring.HierarchicalEntityModel.name'
     package: '@azure/cognitiveservices-luis-authoring'
-  - uid: '@azure/cognitiveservices-luis-authoring.HierarchicalEntityModel.name'
-    name: name
-    fullName: name
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: Entity name.
-    optional: true
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'name?: undefined | string'
       return:
-        type:
-          - undefined | string
+        type: undefined | string
         description: ''
-    package: '@azure/cognitiveservices-luis-authoring'

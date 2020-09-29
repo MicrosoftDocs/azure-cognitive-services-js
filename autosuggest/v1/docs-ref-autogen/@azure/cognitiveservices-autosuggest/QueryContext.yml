@@ -1,113 +1,89 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@azure/cognitiveservices-autosuggest.QueryContext'
-    name: QueryContext
-    fullName: QueryContext
-    children:
-      - '@azure/cognitiveservices-autosuggest.QueryContext.adultIntent'
-      - >-
-        @azure/cognitiveservices-autosuggest.QueryContext.alterationOverrideQuery
-      - '@azure/cognitiveservices-autosuggest.QueryContext.alteredQuery'
-      - '@azure/cognitiveservices-autosuggest.QueryContext.askUserForLocation'
-      - '@azure/cognitiveservices-autosuggest.QueryContext.isTransactional'
-      - '@azure/cognitiveservices-autosuggest.QueryContext.originalQuery'
-    langs:
-      - typeScript
-    type: interface
-    summary: ''
+### YamlMime:TSType
+name: QueryContext
+uid: '@azure/cognitiveservices-autosuggest.QueryContext'
+package: '@azure/cognitiveservices-autosuggest'
+summary: ''
+fullName: QueryContext
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: adultIntent
+    uid: '@azure/cognitiveservices-autosuggest.QueryContext.adultIntent'
     package: '@azure/cognitiveservices-autosuggest'
-  - uid: '@azure/cognitiveservices-autosuggest.QueryContext.adultIntent'
-    name: adultIntent
-    fullName: adultIntent
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: ''
-    optional: true
+    fullName: adultIntent
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'adultIntent?: undefined | false | true'
       return:
-        type:
-          - undefined | false | true
+        type: undefined | false | true
         description: ''
+  - name: alterationOverrideQuery
+    uid: '@azure/cognitiveservices-autosuggest.QueryContext.alterationOverrideQuery'
     package: '@azure/cognitiveservices-autosuggest'
-  - uid: '@azure/cognitiveservices-autosuggest.QueryContext.alterationOverrideQuery'
-    name: alterationOverrideQuery
-    fullName: alterationOverrideQuery
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: ''
-    optional: true
+    fullName: alterationOverrideQuery
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'alterationOverrideQuery?: undefined | string'
       return:
-        type:
-          - undefined | string
+        type: undefined | string
         description: ''
+  - name: alteredQuery
+    uid: '@azure/cognitiveservices-autosuggest.QueryContext.alteredQuery'
     package: '@azure/cognitiveservices-autosuggest'
-  - uid: '@azure/cognitiveservices-autosuggest.QueryContext.alteredQuery'
-    name: alteredQuery
-    fullName: alteredQuery
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: ''
-    optional: true
+    fullName: alteredQuery
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'alteredQuery?: undefined | string'
       return:
-        type:
-          - undefined | string
+        type: undefined | string
         description: ''
+  - name: askUserForLocation
+    uid: '@azure/cognitiveservices-autosuggest.QueryContext.askUserForLocation'
     package: '@azure/cognitiveservices-autosuggest'
-  - uid: '@azure/cognitiveservices-autosuggest.QueryContext.askUserForLocation'
-    name: askUserForLocation
-    fullName: askUserForLocation
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: ''
-    optional: true
+    fullName: askUserForLocation
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'askUserForLocation?: undefined | false | true'
       return:
-        type:
-          - undefined | false | true
+        type: undefined | false | true
         description: ''
+  - name: isTransactional
+    uid: '@azure/cognitiveservices-autosuggest.QueryContext.isTransactional'
     package: '@azure/cognitiveservices-autosuggest'
-  - uid: '@azure/cognitiveservices-autosuggest.QueryContext.isTransactional'
-    name: isTransactional
-    fullName: isTransactional
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: ''
-    optional: true
+    fullName: isTransactional
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'isTransactional?: undefined | false | true'
       return:
-        type:
-          - undefined | false | true
+        type: undefined | false | true
         description: ''
+  - name: originalQuery
+    uid: '@azure/cognitiveservices-autosuggest.QueryContext.originalQuery'
     package: '@azure/cognitiveservices-autosuggest'
-  - uid: '@azure/cognitiveservices-autosuggest.QueryContext.originalQuery'
-    name: originalQuery
-    fullName: originalQuery
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: ''
+    fullName: originalQuery
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'originalQuery: string'
       return:
-        type:
-          - string
+        type: string
         description: ''
-    package: '@azure/cognitiveservices-autosuggest'

@@ -1,13 +1,10 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@azure/cognitiveservices-luis-authoring.PermissionsAddResponse'
-    name: PermissionsAddResponse
-    fullName: PermissionsAddResponse
-    children: []
-    langs:
-      - typeScript
-    type: type alias
-    summary: Contains response data for the add operation.
-    syntax:
-      content: 'type PermissionsAddResponse = OperationStatus & { _response: Object }'
-    package: '@azure/cognitiveservices-luis-authoring'
+### YamlMime:TSTypeAlias
+name: PermissionsAddResponse
+uid: '@azure/cognitiveservices-luis-authoring.PermissionsAddResponse'
+package: '@azure/cognitiveservices-luis-authoring'
+summary: Contains response data for the add operation.
+fullName: PermissionsAddResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type PermissionsAddResponse = OperationStatus & { _response: Object }'
