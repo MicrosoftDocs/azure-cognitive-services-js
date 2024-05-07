@@ -96,25 +96,6 @@
       "site_name": "Docs"
     },
     {
-      "docset_name": "personalizer-js",
-      "build_source_folder": "personalizer-js",
-      "build_output_subfolder": "personalizer-js",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content",
-        "UniversalReference": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "base_path": "javascript",
-      "site_name": "Docs"
-    },
-    {
       "docset_name": "qnamaker-js",
       "build_source_folder": "qnamaker-js",
       "build_output_subfolder": "qnamaker-js",
