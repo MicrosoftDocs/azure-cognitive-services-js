@@ -191,30 +191,6 @@
       "template_folder": "_themes",
       "base_path": "javascript",
       "site_name": "Docs"
-    },
-    {
-      "docset_name": "text-analytics-js",
-      "build_source_folder": "text-analytics-js",
-      "build_output_subfolder": "text-analytics-js",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content",
-        "UniversalReference": "Content",
-        "TSType": "Content",
-        "TSPackage": "Content",
-        "TSEnum": "Content",
-        "TSTypeAlias": "Content",
-        "ReferenceContainer": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "base_path": "javascript",
-      "site_name": "Docs"
     }
   ],
   "notification_subscribers": [
