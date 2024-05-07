@@ -1,30 +1,6 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "luis-runtime-js",
-      "build_source_folder": "luis-runtime-js",
-      "build_output_subfolder": "luis-runtime-js",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content",
-        "UniversalReference": "Content",
-        "TSType": "Content",
-        "TSPackage": "Content",
-        "TSEnum": "Content",
-        "TSTypeAlias": "Content",
-        "ReferenceContainer": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "base_path": "javascript",
-      "site_name": "Docs"
-    },
-    {
       "docset_name": "speech-sdk-js",
       "build_source_folder": "speech-sdk-js",
       "build_output_subfolder": "speech-sdk-js",
